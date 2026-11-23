@@ -157,6 +157,14 @@ WHERE s.id_sinistre IS NULL;               -- pas de correspondance = NULL
 -- Point clé : LEFT JOIN + IS NULL est LA méthode pour trouver
 --             « ce qui n'a pas de correspondance ». Très demandé en entretien.
 
+-- Question : combien de lignes et de clients différents après la jointure ?
+SELECT COUNT(*)                     AS nb_lignes,
+       COUNT(DISTINCT cl.id_client) AS nb_clients
+FROM contrats AS co
+INNER JOIN clients AS cl
+        ON co.id_client = cl.id_client;
+-- Résultat : 339 lignes ; 200 clients
+
 
 /* ---------------------------------------------------------------------
    Bonus. Combien de clients n'ont déclaré aucun sinistre ?
