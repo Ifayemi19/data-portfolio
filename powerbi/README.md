@@ -1,6 +1,6 @@
 # Leçon Power BI 1 — Premier tableau de bord d'un portefeuille d'assurance
 
-| | |
+| Élément | Détail |
 |---|---|
 | **Auteure** | Géneviève AMAGBEGNON |
 | **Date** | 18/11/2026 |
@@ -10,6 +10,8 @@
 | **Fichier** | `pbi_s1_j1.pbix` |
 
 **Objectif :** construire un tableau de bord de suivi d'un portefeuille d'assurance (contrats, primes, sinistres) et retrouver dans Power BI les indicateurs calculés en SQL et en Python.
+
+![Tableau de bord](capture_dashboard.png)
 
 ## Modèle de données
 
