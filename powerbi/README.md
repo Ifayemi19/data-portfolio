@@ -11,7 +11,7 @@
 
 **Objectif :** construire un tableau de bord de suivi d'un portefeuille d'assurance (contrats, primes, sinistres) et retrouver dans Power BI les indicateurs calculés en SQL et en Python.
 
-![Tableau de bord](capture_dashboard.png)
+![Tableau de bord](capture_dashboard.PNG)
 
 ## Modèle de données
 
